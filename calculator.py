@@ -18,6 +18,7 @@ def main():
     num1 = float(input("Enter the first number: "))
     num2 = float(input("Enter the second number: "))
 
+
     if operation == "+":
       result = add(num1, num2)
     elif operation == "-":
@@ -29,6 +30,7 @@ def main():
     else:
       print("Invalid operation.")
       continue
+
 
     print("The result is:", result)
 
